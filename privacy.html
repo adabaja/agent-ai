@@ -14,15 +14,19 @@
             padding: 0 2rem;
             line-height: 1.7;
         }
-        h1 { color: #fff; margin-bottom: 1.5rem; }
-        h2 { color: #fff; margin: 2rem 0 0.5rem; font-size: 1rem; }
-        p  { color: #a3a3a3; font-size: 0.9rem; }
-        a  { color: #737373; }
+        h1 { color: #fff; margin-bottom: 0.5rem; font-size: 1.75rem; }
+        .date { color: #525252; font-size: 0.8rem; margin-bottom: 2rem; }
+        h2 { color: #fff; margin: 2rem 0 0.5rem; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.05em; }
+        p { color: #a3a3a3; font-size: 0.9rem; }
+        a { color: #737373; }
+        a:hover { color: #a3a3a3; }
+        .back { display: inline-block; margin-top: 3rem; font-size: 0.8rem; color: #525252; text-decoration: none; }
+        .back:hover { color: #737373; }
     </style>
 </head>
 <body>
     <h1>Privacy Policy</h1>
-    <p>Last updated: April 2026</p>
+    <p class="date">Last updated: April 2026</p>
 
     <h2>Overview</h2>
     <p>Ahmed AI Assistant is a personal, private tool. It does not collect, store, or share any user data with third parties.</p>
@@ -31,9 +35,14 @@
     <p>The assistant accesses Gmail and Google Calendar solely to perform actions requested by the authorized user. No data is stored on external servers.</p>
 
     <h2>OAuth Scopes</h2>
-    <p>Google OAuth is used only for the personal account of the app owner. No other users are granted access.</p>
+    <p>Google OAuth is used exclusively for the personal account of the app owner. No other users are granted access or have their data processed.</p>
+
+    <h2>Data Retention</h2>
+    <p>No personal data is logged or retained. All processing happens locally on the owner's hardware.</p>
 
     <h2>Contact</h2>
-    <p>For questions, contact the app owner directly via <a href="https://github.com/adabaja">GitHub</a>.</p>
+    <p>For questions, reach out via <a href="https://github.com/adabaja">GitHub</a>.</p>
+
+    <a class="back" href="index.html">← Back to home</a>
 </body>
 </html>
